@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from './sections/Banner';
 
 const App = () => (
 <div>
@@ -6,6 +7,7 @@ const App = () => (
 <div className="cta-cont-btns">
   <a href="#">Download from facebook</a>
 </div>
+<Banner/>
 </div>
 );
 
